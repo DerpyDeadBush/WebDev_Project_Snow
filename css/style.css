@@ -14,12 +14,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border:10px;
 }
 #nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 15;
     text-align: center;
+    background-color: antiquewhite;
 }
 #contact{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
