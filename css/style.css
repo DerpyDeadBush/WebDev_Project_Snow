@@ -1,7 +1,7 @@
 h1,h2{
     font-size: 18;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Isometra", sans-serif;
 }
 p{
     font-size: 14;
@@ -28,7 +28,12 @@ img {
     text-align: left;
 }
 #footer{
-    font-size: 12;
+    color: lightgray;
+    background-color: #142b4b;
+    line-height: 300%;
+    text-indent: 5%;
+}
+#ftxt{
+    line-height: normal;
     text-align: left;
-    color: gray;
 }
