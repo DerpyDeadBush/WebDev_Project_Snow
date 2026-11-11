@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Base for all elements*/
 h1,h2{
     font-size: 18;
     text-align: center;
@@ -16,24 +21,30 @@ img {
   width: 50%;
   border:10px;
 }
-#nav{
+/*header*/
+
+/*Nav Bar Customizer*/
+.nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 15;
     text-align: center;
     background-color: antiquewhite;
 }
-#contact{
+/*Contact info at page bottom*/
+.contact{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
 }
-#footer{
+/*Draw bar at bottom of page*/
+.footer{
     color: lightgray;
     background-color: #142b4b;
     line-height: 300%;
     text-indent: 5%;
 }
-#ftxt{
+/*Text inside footer*/
+.ftxt{
     line-height: normal;
     text-align: left;
 }
