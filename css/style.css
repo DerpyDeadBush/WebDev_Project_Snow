@@ -21,15 +21,42 @@ img {
   width: 50%;
   border:10px;
 }
-/*header*/
+/*Background image*/
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("../images/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.4;
+    z-index: -1;
+}
 
 /*Nav Bar Customizer*/
-.nav{
+nav{
+    display: flex;
+    gap: 30px
+}
+    
+nav a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 15;
     text-align: center;
-    background-color: antiquewhite;
+}
+
+/*Header*/
+header{
+    position: relative;
+    align-items: center;
+    display: flex;
+    background-color: #5f91c9;
+}
+header h1{
+    text-align: center;
 }
 /*Contact info at page bottom*/
 .contact{
