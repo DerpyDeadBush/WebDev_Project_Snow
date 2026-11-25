@@ -19,7 +19,11 @@ main {
     }
 }
 
-/*Base for all elements*/
+/*
+=========================
+Base for all elements
+=========================
+*/
 h1,h2{
     font-size: 35px;
     text-align: center;
@@ -73,7 +77,11 @@ body::before {
     z-index: -1;
 }
 
-/*Nav Bar Customizer*/
+/*
+=========================
+Nav Bar Customizer
+=========================
+*/
 nav{
     display: flex;
     gap: 30px;
@@ -118,6 +126,7 @@ header h1 {
 header h2{
     text-align: center;
 }
+
 /*Add Underline*/
 .underline {
     color: #142b4b;
@@ -136,7 +145,11 @@ article img:hover {
     transform: scale(1.03);
 }
 
-/*Nav Button*/
+/*
+=========================
+Nav Button
+=========================
+*/
 .nav-button-prompt {
     text-align: center;
     margin: 35px auto;
@@ -196,7 +209,11 @@ footer p {
     margin: 0;
 }
 
-/*Main Page*/
+/*
+=========================
+Main Page
+=========================
+*/
 /*Intro*/
 .intro-title {
     font-size: 25px;
@@ -212,7 +229,11 @@ footer p {
     margin: 10px 20px 25px;
 }
 
-/*About Page*/
+/*
+=========================
+About Page
+=========================
+*/
 /*Horizontal scrolling image gallery*/
 
 /*Image gallery*/
@@ -284,7 +305,11 @@ footer p {
     border-bottom: 4px solid #c6a76b;
 }
 
-/*About page*/
+/*
+=========================
+About page
+=========================
+*/
 /*Remove details dropdown arrow*/
 summary {
     list-style: none;
@@ -303,7 +328,11 @@ summary:hover h3 {
     cursor: pointer;
 }
 
-/*Booking Page*/
+/*
+=========================
+Booking Page
+=========================
+*/
 /*Contact section*/
 .contact {
     width: min(90%, 600px);
@@ -335,7 +364,11 @@ body > br {
     display: none;
 }
 
-/*Accessibility*/
+/*
+=========================
+Accessibility
+=========================
+*/
 /* Accessibility buttons */
 #motion-toggle, #dark-mode-toggle {
     position: absolute;
@@ -406,7 +439,11 @@ body.reduced-motion img:hover, body.reduced-motion #motion-toggle:hover, body.re
 }
 
 
-/*Dark Mode Setting*/
+/*
+=========================
+Dark Mode Settings
+=========================
+*/
 /*Accessibiliy Buttons*/
 body.dark-mode #motion-toggle, body.dark-mode #dark-mode-toggle {
     background-color: #263d48;
@@ -502,7 +539,11 @@ body.dark-mode .image-gallery::-webkit-scrollbar-track {
     background-color: #0b1118;
 }
 
-/*Responsive design*/
+/*
+=========================
+Responsive design
+=========================
+*/
 @media (max-width: 600px) {
     /*Default for all*/
     header {
