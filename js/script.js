@@ -1,0 +1,26 @@
+const motionButton = document.getElementById("motion-toggle");
+
+motionButton.addEventListener("click", function() {
+    const isReduced = document.body.classList.toggle("reduced-motion");
+
+    motionButton.textContent = isReduced ? "◉" : "◉";
+    motionButton.setAttribute("aria-pressed", isReduced);
+    motionButton.setAttribute(
+        "aria-label",
+        isReduced ? "Turn off reduced motion" : "Turn on reduced motion"
+    );
+});
+
+// Dark Mode Button
+const darkButton = document.getElementById("dark-mode-toggle");
+
+darkButton.addEventListener("click", function() {
+    const isDark = document.body.classList.toggle("dark-mode");
+
+    darkButton.textContent = isDark ? "☀" : "☾";
+    darkButton.setAttribute("aria-pressed", isDark);
+    darkButton.setAttribute(
+        "aria-label",
+        isDark ? "Turn off dark mode" : "Turn on dark mode"
+    );
+});
