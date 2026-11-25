@@ -201,8 +201,6 @@ body > br {
 
 
 /*Responsive design*/
-
-/* Responsive design */
 @media (max-width: 600px) {
     header {
         padding: 20px 10px 30px;
