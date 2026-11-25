@@ -430,7 +430,7 @@ body.dark-mode #motion-toggle[aria-pressed="true"] {
 }
 
 /*Reduced Motion Setting*/
-body.reduced-motion img:hover, body.reduced-motion #motion-toggle:hover, body.reduced-motion #dark-mode-toggle:hover, body.reduced-motion .contact:hover {
+body.reduced-motion img:hover, body.reduced-motion #motion-toggle:hover, body.reduced-motion #dark-mode-toggle:hover, body.reduced-motion .contact:hover, body.reduced-motion nav a:hover {
     transform: none !important;
     filter: none !important;
     box-shadow: none !important;
