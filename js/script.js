@@ -24,3 +24,14 @@ darkButton.addEventListener("click", function() {
         isDark ? "Turn off dark mode" : "Turn on dark mode"
     );
 });
+
+// Enable mouse wheel scrolling for the image gallery
+document.querySelectorAll(".image-gallery").forEach(gallery => {
+    gallery.addEventListener("wheel", event => {
+        // Convert vertical scrolling into horizontal scrolling
+        if (event.deltaY !== 0) {
+            event.preventDefault();
+            gallery.scrollLeft += event.deltaY;
+        }
+    }, { passive: false });
+});

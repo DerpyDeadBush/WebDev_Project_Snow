@@ -245,12 +245,10 @@ About Page
     margin: 20px auto;
     padding: 14px 10px;
 
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
 
     scroll-behavior: smooth;
-    scroll-snap-type: none;
-
     -webkit-overflow-scrolling: touch;
 }
 
